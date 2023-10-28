@@ -162,6 +162,7 @@ h1 {
     height: 1802.75px;
     padding-top: 50px;
     gap: 2rem;
+    margin-bottom: 100px;
 
 }
 
@@ -194,9 +195,7 @@ h1 {
 
 }
 
-#phone2,
-#phone3,
-#phone4 ,#phone5,#phone6,#phone7{
+#phone2,#phone3,#phone4,#phone5,#phone6,#phone7 {
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -231,47 +230,51 @@ h1 {
     height: 188px;
     justify-content: center;
     align-items: center;
-    
-   
+
+
 }
-#info5,#info6,#info7{
+
+#info5,#info6,
+#info7 {
     display: flex;
     flex-direction: column;
     width: 210px;
     height: 80px;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-#foot{
+#foot {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
+
 #sec6{
     display: flex;
-    height: 100%;
-background-color:#F2F2F2
+    flex-direction: column;
+    height: auto;
+    padding-top: 10px;
+    background-color: #F2F2F2
+    
 }
 #wow-effect{
     display: flex;
-width: 1380px;
-height: 587px;
-padding: 17px 50.078px 15px 100.031px;
-justify-content: flex-end;
-align-items: center;
-gap: 100.063px;
-flex-shrink: 0;
-/*background-color:#010129 ;*/
+   margin: auto;
+   padding: 17px 50.078px 17px 100.031px;
+    width: 1380px;
+    height:500px;
+    gap: 100.063px;
+    background-color: #010129;
+    margin-bottom: 10px;
 }
 #element{
     display: flex;
-
-height: 100px;
-width:200px;
-
-
-
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 50.078px 17px 100.031px;
+    justify-content: center;
+   
 }
